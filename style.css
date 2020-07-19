@@ -1,0 +1,25 @@
+body {
+	background-color: #121212;
+}
+h1 {
+	color: #dbdbdb;
+	text-align: center;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0 auto;
+	height: 500px;
+	width: 400px;
+	background-color: rgb(34, 35, 35);
+}
+.board {
+	background-color: #272727;
+	height: 350px;
+	width: 350px;
+	margin: 25px auto 0;
+}
+td{
+	border: 1px solid white;
+}
